@@ -78,8 +78,8 @@ El sueldo semanal es ${salariosemanal}
 
 //7 MODISTA
 
-const pulgada = 0.0254,
-      DemetroApulgada =  39.37;
-      metro = 1;
-      
-const ValordeMetroAPulgada = pulgada
+const metro = prompt("Ingrese números de metros");
+
+const metroapulg = metro * 0.0254;
+
+alert ("La cantidad de "+metro+" metros es "+metroapulg+" pulgadas");
