@@ -74,7 +74,7 @@ console.log(`
 El sueldo semanal es ${salariosemanal}
 `);
 
-*/
+
 
 //7 MODISTA
 
@@ -83,3 +83,23 @@ const metro = prompt("Ingrese números de metros");
 const metroapulg = metro * 0.0254;
 
 alert ("La cantidad de "+metro+" metros es "+metroapulg+" pulgadas");
+
+
+
+//8 DE SOLES A DOLARES
+
+const soles = prompt("Ingrese números en soles");
+
+const solesadolar = soles * 0.26;
+
+alert ("La cantidad es "+solesadolar+" dólares ");
+
+*/
+
+//9 EDAD DE PERSONAS
+
+const anio = prompt("Ingrese año de nacimiento");
+
+const edadactual = 2021 - anio;
+
+alert ("Tu edad actual es "+edadactual+" años");
