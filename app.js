@@ -32,7 +32,7 @@ console.log (`
 El área del rectangulo es ${area}
 `);
 
-*/
+
 
 //4  AREA DEL TRIANGULO
 const base = 8,
@@ -59,4 +59,27 @@ console.log(`
 El área de la circunferencia es ${areacircunferencia}
 `);
 
-//6 
+
+
+//6 SUELDO SEMANAL
+
+const sueldomensual = 980,
+      diasmes = 30,
+      diassemana = 7;
+
+const salariodiario = sueldomensual / diasmes;
+const salariosemanal = salariodiario * diassemana;
+
+console.log(`
+El sueldo semanal es ${salariosemanal}
+`);
+
+*/
+
+//7 MODISTA
+
+const pulgada = 0.0254,
+      DemetroApulgada =  39.37;
+      metro = 1;
+      
+const ValordeMetroAPulgada = pulgada
