@@ -94,7 +94,7 @@ const solesadolar = soles * 0.26;
 
 alert ("La cantidad es "+solesadolar+" dólares ");
 
-*/
+
 
 //9 EDAD DE PERSONAS
 
@@ -102,4 +102,7 @@ const anio = prompt("Ingrese año de nacimiento");
 
 const edadactual = 2021 - anio;
 
-alert ("Tu edad actual es "+edadactual+" años");
+alert ("Tu edad actual es "+edadactual+" ");
+
+*/
+
